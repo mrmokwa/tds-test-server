@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="_login" path="/login" produces="application/json">
+    <prgs:operation consumes="application/json" idls="tds-test-server/.services/AppServer/AuthService.pidl::com.progress.openedge.pdt.bpmbindings" name="AuthService..Login" produces="application/json" verb="GET"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_itens" path="/itens" produces="application/json">
+    <prgs:operation consumes="application/json" idls="tds-test-server/.services/AppServer/ItemService.pidl::com.progress.openedge.pdt.bpmbindings" name="ItemService..GetData" produces="application/json" verb="GET"/>
+  </prgs:resource>
+</prgs:model>

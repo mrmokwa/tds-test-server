@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module-content version="11.7">
+<module id="adc03a48-71ea-4f63-bdb6-8946964312f4" name="tds-test-server">
+<resource path="AppServer" publish="true"/>
+</module>
+</module-content>
